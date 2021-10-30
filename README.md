@@ -41,7 +41,7 @@ spec:
   selector:   
     matchLabels:   
       app: postgresql-db   
-  replicas: 2   
+  replicas: 1   
   template:   
     metadata:   
       labels:   
@@ -55,7 +55,7 @@ spec:
               mountPath: /data   
           env:   
             - name: POSTGRES_PASSWORD   
-              value: testpassword   
+              value: test   
             - name: PGDATA   
               value: /data/pgdata   
    volumeClaimTemplates:   
