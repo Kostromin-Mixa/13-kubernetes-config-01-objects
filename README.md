@@ -1,5 +1,5 @@
 # Домашнее задание к занятию "13.1 контейнеры, поды, deployment, statefulset, services, endpoints"   
-1 задание:   
+## __1 задание:__   
 __deployment фронтенд и бекенд:__   
 Находясь в папке templates коммандой kubectl apply -f my-pod.yaml создём под с двумя контейнерами.  
 [front-back-pod.yaml](https://github.com/Kostromin-Mixa/13-kubernetes-config-01-objects/blob/main/front-back-pod.yaml)   
@@ -67,5 +67,12 @@ spec:
         resources:   
           requests:   
             storage: 25Gi   
+
+
+## __2 задание:__   
+
+
+
+
 
 
