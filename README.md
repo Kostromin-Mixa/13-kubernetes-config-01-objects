@@ -2,7 +2,7 @@
 1 задание:   
 __deployment фронтенд и бекенд:__   
 Находясь в папке templates коммандой kubectl apply -f my-pod.yaml создём под с двумя контейнерами.  
-
+[front-back-pod.yaml](https://github.com/Kostromin-Mixa/13-kubernetes-config-01-objects/blob/main/front-back-pod.yaml)   
 apiVersion: apps/v1   
 kind: Deployment   
 metadata:   
@@ -32,6 +32,7 @@ spec:
             value: "8080"      
 
 __база данных — через statefulset:__   
+[db-pod.yaml](https://github.com/Kostromin-Mixa/13-kubernetes-config-01-objects/blob/main/db-pod.yaml)   
 apiVersion: apps/v1   
 kind: StatefulSet   
 metadata:   
@@ -66,3 +67,5 @@ spec:
         resources:   
           requests:   
             storage: 25Gi   
+
+
