@@ -5,8 +5,8 @@ metadata:
   namespace: default
 spec:
   ports:
-    - name: web
-      port: 9000
+    - name: postgresql-db
+      port: 5432
   selector:
     app: multitool
   type: ClusterIP
