@@ -20,5 +20,5 @@ __база данных — через statefulset:__
 [back-services](https://github.com/Kostromin-Mixa/13-kubernetes-config-01-objects/blob/main/service-back.yaml)   
 
 Проверяем, что всё запущено:   
-![all](https://user-images.githubusercontent.com/78191008/139599583-99b0c66a-dff7-4a34-af60-cbe863b3be67.png)
+![all](https://user-images.githubusercontent.com/78191008/139599841-d072c50d-d5c7-4a8f-83e6-a78910e82451.png)
 
