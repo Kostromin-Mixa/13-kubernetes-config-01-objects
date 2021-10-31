@@ -21,7 +21,7 @@ spec:
               mountPath: /data
           env:
             - name: POSTGRES_PASSWORD
-              value: test
+              value: password
             - name: PGDATA
               value: /data/pgdata
    volumeClaimTemplates:
