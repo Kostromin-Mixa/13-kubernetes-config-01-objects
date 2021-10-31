@@ -75,4 +75,11 @@ spec:
 
 
 
+![pods](https://user-images.githubusercontent.com/78191008/139575296-66d7f832-2278-42cf-82df-2898cc304aa7.png)
+
+![sts](https://user-images.githubusercontent.com/78191008/139575300-d5453b56-2f1f-4d7e-8260-efbb944384dd.png)
+
+![deploy](https://user-images.githubusercontent.com/78191008/139575304-6903af07-6229-46c5-a5ed-32ff6705621e.png)
+
+![svc](https://user-images.githubusercontent.com/78191008/139575309-ebd54a15-b3ca-45e4-96e2-8c4c25deac93.png)
 
