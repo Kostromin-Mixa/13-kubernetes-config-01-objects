@@ -22,3 +22,5 @@ spec:
         env:
           - name: HTTP_PORT
             value: "8000"      
+          - name: backend
+            value: "9000"
