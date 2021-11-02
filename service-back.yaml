@@ -10,5 +10,5 @@ spec:
     - name: postgresql-db
       port: 5432
   selector:
-    app: multitool
+    app: nginx
   type: ClusterIP
