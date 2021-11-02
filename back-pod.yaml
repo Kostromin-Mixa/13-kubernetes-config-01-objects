@@ -22,3 +22,5 @@ spec:
         env:
           - name: HTTP_PORT
             value: "9000"    
+          - name: postgresql-db
+            value: "5432"
