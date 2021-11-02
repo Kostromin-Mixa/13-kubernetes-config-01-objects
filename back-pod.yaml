@@ -2,22 +2,23 @@ apiVersion: apps/v1
 kind: Deployment   
 metadata:   
   labels:   
-    app: multitool   
+    app: nginx   
   name: backend   
   namespace: default  
 spec:   
   replicas: 1   
   selector:   
     matchLabels:   
-      app: multitool   
+      app: nginx   
   template:   
     metadata:   
       labels:   
-        app: multitool   
+        app: nginx   
     spec:   
-      - image: praqma/network-multitool:alpine-extra   
+      containers:   
+      - image: nginx:1.20   
         imagePullPolicy: IfNotPresent   
         name: backend   
-        env:   
-          - name: HTTP_PORT   
-            value: "9000"      
+        env:
+          - name: HTTP_PORT
+            value: "9000"    
