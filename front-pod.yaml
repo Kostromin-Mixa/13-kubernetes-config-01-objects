@@ -20,5 +20,5 @@ spec:
         imagePullPolicy: IfNotPresent   
         name: frontend   
         env:
-           -name: HTTP_PORT 
+          - name: HTTP_PORT
             value: "8000"      
