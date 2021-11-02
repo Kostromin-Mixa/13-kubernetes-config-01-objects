@@ -7,8 +7,6 @@ spec:
   ports:
     - name: web
       port: 8000
-    - name: backend
-      port: 9000
   selector:
     app: nginx
   type: ClusterIP
