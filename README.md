@@ -17,7 +17,7 @@ __база данных — через statefulset:__
 
 Создаём сервысы:   
 [front-services.yaml](https://github.com/Kostromin-Mixa/13-kubernetes-config-01-objects/blob/main/service-front.yaml)   
-[back-services](https://github.com/Kostromin-Mixa/13-kubernetes-config-01-objects/blob/main/service-back.yaml)   
+[back-services.yaml](https://github.com/Kostromin-Mixa/13-kubernetes-config-01-objects/blob/main/service-back.yaml)   
 
 Проверяем, что всё запущено:   
 
